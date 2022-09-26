@@ -23,9 +23,9 @@ Creazione di un Single-Page Applicazion per la visualizzazione e la ricerca di d
         per la visualizzazione e la ricerca sulla tabella è stato utilizzato il componente <b>react-bootstrap-table2.</b>
          </p>
        
-      Il link relativo al file CSV:
+      <p className="mb-0">Il link relativo al file CSV:</p>
       https://data.bioontology.org/ontologies/OBIB/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb&download_format=csv
       
-      Il link della demo:
+      <p className="mb-0"> Il link della demo:</p>
       https://ingegneriadelsoftware.firebaseapp.com/
         
