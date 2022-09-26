@@ -25,7 +25,9 @@ Creazione di un Single-Page Applicazion per la visualizzazione e la ricerca di d
       
       https://data.bioontology.org/ontologies/OBIB/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb&download_format=csv
       
-      <p className="mb-0"> Il link della demo:</p>
+       <p className="mb-0"></br>Il link della demo:</br></p>
+      
+    
       
       https://ingegneriadelsoftware.firebaseapp.com/
         
