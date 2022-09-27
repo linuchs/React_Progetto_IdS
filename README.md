@@ -31,16 +31,15 @@ Il linguaggio utilizzato per lo sviluppo della applicazione è Javascript, in pa
 
 
       
-Componenti utilizzate.
+ <h3>Componenti utilizzate. </h3>
 
-Bootstrap 4.6:
+</br>Bootstrap 4.6:
 https://getbootstrap.com/docs/4.6/getting-started/introduction/
-React-bootstrap-table2:
+</br>React-bootstrap-table2:
 https://react-bootstrap-table.github.io/react-bootstrap-table2/docs/table-props.html
 
 </br>Il link relativo al file CSV:
   
-        
 https://data.bioontology.org/ontologies/OBIB/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb&download_format=csv
       
      
