@@ -1,6 +1,6 @@
 
 <h1>Creazione di un Single-Page Applicazion per la visualizzazione e la ricerca di dati provenienti da un file CSV.</h1>
- https://ingegneriadelsoftware.firebaseapp.com/
+Link relativo al deploy della applicazione su Firebase: https://ingegneriadelsoftware.firebaseapp.com/
         <p className="mb-0" >
        <h2>Requisiti</h2> 
 Il progetto consiste nell’implementazione una Interfaccia Utente, la quale permetterà di scegliere ad un utente generico un file da caricare, si potrà scegliere un file con una estensione di tipo Csv, una volta caricato in memoria il file sarà stampato a video e i dati in esso contenuti saranno visibili su una tabella.
