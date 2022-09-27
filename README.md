@@ -15,14 +15,14 @@ si potranno escludere delle colonne o aggiungerne altre.
 </br>Il file esportato sarà salvato automaticamente sul dispositivo locale, questo conterrà come intestazione le sole colonne selezionate e i relativi dati.
 </p>
 
-</br>Pattern architetturale e Classi utilizzate.
+</br> <h2> Pattern architetturale e Classi utilizzate.</h2>
 Il linguaggio utilizzato per lo sviluppo della applicazione è Javascript, in particolare è stata utilizzata la libreria ReactJS.
 </br>Il pattern architetturale utilizzato per lo sviluppo è MVC (Model-View-Controller), per cui la struttura della single-page application risultante è divisa in tre parti fondamentali:
 </br>•	Controller che riceve i comandi passati dall'utente e comunica con le altre due componenti, con il Model per modificare i dati e con la View per visualizzare i dati.
 </br>•	Model che implementa i metodi per accedere ai dati utilizzati dall’applicazione.
 </br>•	View che visualizza i dati contenuti nel Model e si occupa dell'interazione con l’utente.
 
-</br>MVC nella nostra applicazione.
+</br> <h3>MVC nella nostra applicazione. </h3>
 </br>Il Controller fornisce un form dal quale è possibile scegliere esclusivamente files di tipo CSV, una volta scelto il file verrà attivato il pulsante “Carica File”, la cui attivazione porterà all’esecuzione della funzione “Gestore_MVC” attraverso il quale il Controller gestirà la classe Model che si occuperà di formattare il contenuto del file CSV in modo da dare in output al Controller, sotto forma di due array i dati che quest’ultimo fornirà al componente View per la visualizzazione delle informazioni contenute nel file CSV.
 (Per utilizzate all’interno del Controller i costrutti hook incorporati in React, il Controller non è stato implementato come una classe, altrimenti gli useState hooks non si sarebbero potuti utilizzare in quanto avrebbero dato errore). 
 </br>La classe Model consta di due metodi per l’elaborazione e l’accesso ai dati. Il metodo “TrasformaCsvInArray” prende in input l’intero file di testo passato dal Controller al Model, estrae la prima riga del file che è l’intestazione delle colonne del file CSV e la assegna all’array intestazione della classe Model, infine formatta le righe successive secondo la logica del file CSV assegnandole infine all’array “righe”. Una volta eseguito il metodo “TrasformaCsvInArray” il Controller può accedere agli array “intestazione” e “righe” attraverso il metodo “GetData()” della classe Model, a questo punto il Controller possiede i dati che necessità la View per visualizzare al tabella.
