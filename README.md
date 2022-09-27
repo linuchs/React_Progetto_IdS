@@ -40,7 +40,7 @@ Il linguaggio utilizzato per lo sviluppo della applicazione è Javascript, in pa
 </br> React-bootstrap-table2 per la tabella e i comandi correlati al suo utilizzo:
 </br> https://react-bootstrap-table.github.io/react-bootstrap-table2/docs/table-props.html
 
-</br>Il link relativo al file CSV:
+</br>Il link relativo al file CSV utilizzato per testare l'applicazione:
 </br>https://data.bioontology.org/ontologies/OBIB/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb&download_format=csv
       
      
