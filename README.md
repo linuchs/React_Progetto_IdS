@@ -17,17 +17,17 @@ si potranno escludere delle colonne o aggiungerne altre.
 
 </br>Pattern architetturale e Classi utilizzate.
 Il linguaggio utilizzato per lo sviluppo della applicazione è Javascript, in particolare è stata utilizzata la libreria ReactJS.
-Il pattern architetturale utilizzato per lo sviluppo è MVC (Model-View-Controller), per cui la struttura della single-page application risultante è divisa in tre parti fondamentali:
-•	Controller che riceve i comandi passati dall'utente e comunica con le altre due componenti, con il Model per modificare i dati e con la View per visualizzare i dati.
-•	Model che implementa i metodi per accedere ai dati utilizzati dall’applicazione.
-•	View che visualizza i dati contenuti nel Model e si occupa dell'interazione con l’utente.
+</br>Il pattern architetturale utilizzato per lo sviluppo è MVC (Model-View-Controller), per cui la struttura della single-page application risultante è divisa in tre parti fondamentali:
+</br>•	Controller che riceve i comandi passati dall'utente e comunica con le altre due componenti, con il Model per modificare i dati e con la View per visualizzare i dati.
+</br>•	Model che implementa i metodi per accedere ai dati utilizzati dall’applicazione.
+</br>•	View che visualizza i dati contenuti nel Model e si occupa dell'interazione con l’utente.
 
 
       
-      <p className="mb-0">Sono stati utilizzati i seguenti strumenti: la libreria <b>React di Javascript</b> e <b>Bootstrap per React</b>,
+Sono stati utilizzati i seguenti strumenti: la libreria <b>React di Javascript</b> e <b>Bootstrap per React</b>,
         per la visualizzazione e la ricerca sulla tabella è stato utilizzato il componente <b>react-bootstrap-table2.</b>
         </br>Il link relativo al file CSV:
-        </p>
+  
         
       
       https://data.bioontology.org/ontologies/OBIB/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb&download_format=csv
