@@ -1,4 +1,4 @@
-<div font-size: 12px>
+<div style="background-color: crimson; color: #f1f1f1; font-weight: bold font-size: 12px">
 font-size: 0.8em;>
 <h1>Creazione di un Single-Page Applicazion per la visualizzazione e la ricerca di dati provenienti da un file CSV.</h1>
  https://ingegneriadelsoftware.firebaseapp.com/
