@@ -31,7 +31,7 @@ Il linguaggio utilizzato per lo sviluppo della applicazione è Javascript, in pa
 
 
       
- <h3>Componenti utilizzate. </h3>
+ <h2>Componenti utilizzate. </h2>
 
 </br>Bootstrap 4.6:
 https://getbootstrap.com/docs/4.6/getting-started/introduction/
