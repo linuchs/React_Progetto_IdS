@@ -1,5 +1,5 @@
 
-<h1>Creazione di un Single-Page Applicazion per la visualizzazione e la ricerca di dati provenienti da un file CSV.</h1>
+<h1>Creazione di un Single-Page Application per la visualizzazione e la ricerca di dati provenienti da un file CSV.</h1>
 Link relativo al deploy della applicazione su Firebase: https://ingegneriadelsoftware.firebaseapp.com/
         <p className="mb-0" >
        <h2>Requisiti</h2> 
