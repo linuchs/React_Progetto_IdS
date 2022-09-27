@@ -34,10 +34,10 @@ Il linguaggio utilizzato per lo sviluppo della applicazione è Javascript, in pa
 
       
  <h2>Componenti utilizzate. </h2>
-
-</br>Bootstrap 4.6:
-https://getbootstrap.com/docs/4.6/getting-started/introduction/
-</br>React-bootstrap-table2:
+        
+</br> Bootstrap 4.6 per gli stili:
+https://getbootstrap.com/docs/4.6/getting-started/introduction
+</br> React-bootstrap-table2 per la tabella e i comandi correlati al suo utilizzo:
 https://react-bootstrap-table.github.io/react-bootstrap-table2/docs/table-props.html
 
 </br>Il link relativo al file CSV:
