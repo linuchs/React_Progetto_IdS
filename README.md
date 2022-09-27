@@ -31,13 +31,17 @@ Il linguaggio utilizzato per lo sviluppo della applicazione è Javascript, in pa
 
 
       
-Sono stati utilizzati i seguenti strumenti: la libreria <b>React di Javascript</b> e <b>Bootstrap per React</b>,
-        per la visualizzazione e la ricerca sulla tabella è stato utilizzato il componente <b>react-bootstrap-table2.</b>
-        </br>Il link relativo al file CSV:
+Componenti utilizzate.
+
+Bootstrap 4.6:
+https://getbootstrap.com/docs/4.6/getting-started/introduction/
+React-bootstrap-table2:
+https://react-bootstrap-table.github.io/react-bootstrap-table2/docs/table-props.html
+
+</br>Il link relativo al file CSV:
   
         
-      
-      https://data.bioontology.org/ontologies/OBIB/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb&download_format=csv
+https://data.bioontology.org/ontologies/OBIB/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb&download_format=csv
       
      
         
