@@ -1,3 +1,5 @@
+<div font-size: 12px>
+font-size: 0.8em;>
 <h1>Creazione di un Single-Page Applicazion per la visualizzazione e la ricerca di dati provenienti da un file CSV.</h1>
  https://ingegneriadelsoftware.firebaseapp.com/
         <p className="mb-0" >
@@ -42,5 +44,5 @@ https://react-bootstrap-table.github.io/react-bootstrap-table2/docs/table-props.
   
 https://data.bioontology.org/ontologies/OBIB/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb&download_format=csv
       
-     
+</div>     
         
