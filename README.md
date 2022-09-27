@@ -1,4 +1,4 @@
-<div style="background-color: crimson; color: #f1f1f1; font-weight: bold font-size: 16px font-size: 0.9em">
+
 <h1>Creazione di un Single-Page Applicazion per la visualizzazione e la ricerca di dati provenienti da un file CSV.</h1>
  https://ingegneriadelsoftware.firebaseapp.com/
         <p className="mb-0" >
@@ -24,10 +24,12 @@ Il linguaggio utilizzato per lo sviluppo della applicazione è Javascript, in pa
 </br>•	View che visualizza i dati contenuti nel Model e si occupa dell'interazione con l’utente.
 
 </br> <h3>MVC nella nostra applicazione. </h3>
-</br>Il Controller fornisce un form dal quale è possibile scegliere esclusivamente files di tipo CSV, una volta scelto il file verrà attivato il pulsante “Carica File”, la cui attivazione porterà all’esecuzione della funzione “Gestore_MVC” attraverso il quale il Controller gestirà la classe Model che si occuperà di formattare il contenuto del file CSV in modo da dare in output al Controller, sotto forma di due array i dati che quest’ultimo fornirà al componente View per la visualizzazione delle informazioni contenute nel file CSV.
+</br>• Il Controller fornisce un form dal quale è possibile scegliere esclusivamente files di tipo CSV, una volta scelto il file verrà attivato il pulsante “Carica File”,
+</br>la cui attivazione porterà all’esecuzione della funzione “Gestore_MVC” attraverso il quale il Controller gestirà la classe Model che si occuperà di formattare il contenuto del file CSV in modo da dare in output al Controller, sotto forma di due array i dati che quest’ultimo fornirà al componente View per la visualizzazione delle informazioni contenute nel file CSV.
 (Per utilizzate all’interno del Controller i costrutti hook incorporati in React, il Controller non è stato implementato come una classe, altrimenti gli useState hooks non si sarebbero potuti utilizzare in quanto avrebbero dato errore). 
-</br>La classe Model consta di due metodi per l’elaborazione e l’accesso ai dati. Il metodo “TrasformaCsvInArray” prende in input l’intero file di testo passato dal Controller al Model, estrae la prima riga del file che è l’intestazione delle colonne del file CSV e la assegna all’array intestazione della classe Model, infine formatta le righe successive secondo la logica del file CSV assegnandole infine all’array “righe”. Una volta eseguito il metodo “TrasformaCsvInArray” il Controller può accedere agli array “intestazione” e “righe” attraverso il metodo “GetData()” della classe Model, a questo punto il Controller possiede i dati che necessità la View per visualizzare al tabella.
-</br>Il componente View, quindi, prende in input i due array passati dal Controller, per la visualizzazione della tabella View necessita che l’array contenente l’intestazione sia formattato secondo le specifiche richieste dal componente importato React-bootstap-table2 per cui la classe View implementa il metodo “Formatta_Header” che arricchisce l’array “intestazione” con gli attributi necessari per la visualizzazione della tabella, inoltre la classe View fornisce i metodi per customizzare gli attributi utilizzati dal sottocomponente React-bootstap-table2 per la paginazione della tabella e la ricerca su quest’ultima.
+</br>• La classe Model consta di due metodi per l’elaborazione e l’accesso ai dati. Il metodo “TrasformaCsvInArray” prende in input l’intero file di testo passato dal Controller al Model, estrae la prima riga del file che è l’intestazione delle colonne del file CSV e la assegna all’array intestazione della classe Model, infine formatta le righe successive secondo la logica del file CSV assegnandole infine all’array “righe”.
+</br>Una volta eseguito il metodo “TrasformaCsvInArray” il Controller può accedere agli array “intestazione” e “righe” attraverso il metodo “GetData()” della classe Model, a questo punto il Controller possiede i dati che necessità la View per visualizzare al tabella.
+</br>• Il componente View, quindi, prende in input i due array passati dal Controller, per la visualizzazione della tabella View necessita che l’array contenente l’intestazione sia formattato secondo le specifiche richieste dal componente importato React-bootstap-table2 per cui la classe View implementa il metodo “Formatta_Header” che arricchisce l’array “intestazione” con gli attributi necessari per la visualizzazione della tabella, inoltre la classe View fornisce i metodi per customizzare gli attributi utilizzati dal sottocomponente React-bootstap-table2 per la paginazione della tabella e la ricerca su quest’ultima.
 </br>Infine, permette di esportare il file CSV tramite il componente <ExportCsvButton> interno implementato da React-bootstap-table2.
 
 
@@ -43,5 +45,5 @@ https://react-bootstrap-table.github.io/react-bootstrap-table2/docs/table-props.
   
 https://data.bioontology.org/ontologies/OBIB/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb&download_format=csv
       
-</div>     
+     
         
