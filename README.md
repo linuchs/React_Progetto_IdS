@@ -13,11 +13,22 @@ Sui dati visualizzati nella tabella l’utente avrà la possibilità di fare una
 si potranno escludere delle colonne o aggiungerne altre.
 </br>Inoltre, sarà predisposto un pulsante che permetterà di esportare in formato CSV tutto ciò che è visibile sulla tabella, e in alternativa tutto ciò che è visibile sulla tabella e che è il risultato delle ricerche singole o combinate per riga e per colonne.
 </br>Il file esportato sarà salvato automaticamente sul dispositivo locale, questo conterrà come intestazione le sole colonne selezionate e i relativi dati.
+</p>
 
-      </p>
+</br>Pattern architetturale e Classi utilizzate.
+Il linguaggio utilizzato per lo sviluppo della applicazione è Javascript, in particolare è stata utilizzata la libreria ReactJS.
+Il pattern architetturale utilizzato per lo sviluppo è MVC (Model-View-Controller), per cui la struttura della single-page application risultante è divisa in tre parti fondamentali:
+•	Controller che riceve i comandi passati dall'utente e comunica con le altre due componenti, con il Model per modificare i dati e con la View per visualizzare i dati.
+•	Model che implementa i metodi per accedere ai dati utilizzati dall’applicazione.
+•	View che visualizza i dati contenuti nel Model e si occupa dell'interazione con l’utente.
+
+
+      
       <p className="mb-0">Sono stati utilizzati i seguenti strumenti: la libreria <b>React di Javascript</b> e <b>Bootstrap per React</b>,
         per la visualizzazione e la ricerca sulla tabella è stato utilizzato il componente <b>react-bootstrap-table2.</b>
-        </br>Il link relativo al file CSV:</p>
+        </br>Il link relativo al file CSV:
+        </p>
+        
       
       https://data.bioontology.org/ontologies/OBIB/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb&download_format=csv
       
